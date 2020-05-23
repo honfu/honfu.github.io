@@ -1,0 +1,63 @@
+body {
+    background: #a3ad88;
+    font-family: "Nunito", sans-serif;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #7E846B;
+}
+
+#mainNavbar .navbar-brand {
+    color: #7E846B;
+    font-size: 1.5rem;
+}
+
+#header p {
+    color: white;
+}
+
+#header h1 {
+    color: #7E846B;
+    font-size: 5rem;
+}
+
+#about {
+    background: white;
+}
+
+#portfolio {
+    background: rgb(247, 247, 247);
+}
+
+#contact {
+    background: white;
+}
+
+.hero-buttons {
+    font-weight: 100;
+}
+
+.section-description {
+    color: #594F3B;
+    border-top: 1px solid #594F3B;
+}
+
+.navbar.scrolled {
+    background: #233329;
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+    #header h1 {
+        font-size: 4.75rem;
+    }
+}
